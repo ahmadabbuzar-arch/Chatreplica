@@ -61,6 +61,11 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);min-h
 .card.im .card-btn{background:#34c759;color:#fff;}
 .card.tg .card-btn{background:var(--tg-b);color:#fff;}
 .disc{margin-top:40px;font-size:.72rem;color:#44445a;text-align:center;}
+.privacy-section{margin-top:12px;display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;}
+.privacy-link{font-size:.75rem;color:var(--acc);text-decoration:none;font-weight:600;transition:color .2s;}
+.privacy-link:hover{color:var(--acc2);}
+.privacy-sep{color:#33334a;font-size:.75rem;}
+.privacy-text{font-size:.72rem;color:#44445a;}
 
 /* ── LAYOUT ── */
 #wa-s,#ig-s,#im-s,#tg-s{display:none;min-height:100vh;width:100%;overflow-x:hidden;}
@@ -432,6 +437,13 @@ select.fi{cursor:pointer;}
 
   </div>
   <div class="disc">⚠️ For entertainment purposes only. Not affiliated with any real platform.</div>
+  <div class="privacy-section">
+    <a href="https://ahmadabbuzar-arch.github.io/privacy-policy2/" target="_blank" rel="noopener" class="privacy-link">
+      🔒 Privacy Policy
+    </a>
+    <span class="privacy-sep">·</span>
+    <span class="privacy-text">We do not store or share your data.</span>
+  </div>
 </div>
 
 <!-- ══════ WHATSAPP ══════ -->
